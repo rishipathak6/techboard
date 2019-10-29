@@ -1,0 +1,10 @@
+{
+    "peacock.color": "#145af8",
+    "peacock.affectActivityBar": false,
+    "peacock.affectTitleBar": false,
+    "peacock.surpriseMeOnStartup": true,
+    "workbench.colorCustomizations": {
+        "statusBarItem.hoverBackground": "#457df9",
+        "tab.unfocusedActiveBorder": "#fff0"
+    }
+}
