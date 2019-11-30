@@ -23,11 +23,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145301884-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-145301884-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145301884-1');
     </script>
     <script src="/float-panel.js"></script>
 </head>
@@ -102,8 +105,8 @@
             </div>
             <section class="navbar-mobile">
                 <nav class="nav nav-navbar ml-auto">
-                    <a class="nav-link active" href="../home/CnAHome.html">Home</a>
-                    <a class="nav-link active" href="../Resources.html">Resources</a>
+                    <a class="nav-link active" href="../home/CnAHome.html">CnA Home</a>
+                    <!-- <a class="nav-link active" href="../Resources.html">Resources</a> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">Clubs & 4i<span class="arrow"></span></a>
                         <nav class="nav columns-1 w-250">
@@ -112,27 +115,31 @@
                                 <a class="nav-link" href="../home/AcumenHome.html"><img src="../assets/img/resources/AcumenLogo.png" alt=".." height="25px" width="25px"> Acumen: Quiz Club</a>
                                 <a class="nav-link" href="../home/AeroHome.html"><img src="../assets/img/resources/AeromodellingLogo.png" alt=".." height="25px" width="25px"> Aeromodelling Club</a>
                                 <a class="nav-link" href="../home/AutoHome.html"><img src="../assets/img/resources/AutoLogo.png" alt=".." height="25px" width="25px"> Automobile Club</a>
-                                <a class="nav-link" href="../home/CodingHome.html"><img src="../assets/img/resources/codingclubLogo.png" alt=".." height="25px" width="25px"> Coding Club</a>
+                                <a class="nav-link" href="../home/CodingHome.html"><img src="../assets/img/resources/codingclubLogo.png" alt=".." height="25px" width="25px"> Coding Club
+                                </a>
                                 <a class="nav-link" href="../home/CnAHome.html"><img src="../assets/img/resources/CnALogo.png" alt=".." height="25px" width="25px"> Consulting and Analytics Club</a>
                                 <a class="nav-link" href="../home/ElectronicsHome.html"><img src="../assets/img/resources/ElectronicsClubLogo.png" alt=".." height="25px" width="25px"> Electronics Club</a>
                                 <a class="nav-link" href="../home/EDCHome.html"><img src="../assets/img/resources/EDCLogo.png" alt=".." height="25px" width="25px"> Entrepreneur Development Cell</a>
                                 <a class="nav-link" href="../home/EquinoxHome.html"><img src="../assets/img/resources/EquinoxLogo.png" alt=".." height="25px" width="25px"> Equinox: Astronomy Club</a>
                                 <a class="nav-link" href="../home/FnEHome.html"><img src="../assets/img/resources/FnELogo.png" alt=".." height="25px" width="25px"> Finance and Economics Club</a>
-                                <a class="nav-link" href="../home/PrakritiHome.html"><img src="../assets/img/resources/PrakritiLogo.png" alt=".." height="25px" width="25px"> Prakriti Club</a>
-                                <a class="nav-link" href="../home/RoboticsHome.html"><img src="../assets/img/resources/RoboticsClubLogo.png" alt=".." height="25px" width="25px"> Robotics Club</a>
+                                <a class="nav-link" href="../home/PrakritiHome.html"><img src="../assets/img/resources/PrakritiLogo.png" alt=".." height="25px" width="25px"> Prakriti Club
+                                </a>
+                                <a class="nav-link" href="../home/RoboticsHome.html"><img src="../assets/img/resources/RoboticsClubLogo.png" alt=".." height="25px" width="25px"> Robotics Club
+                                </a>
                             </div>
                         </nav>
                     </li>
                     <a class="nav-link" href="../documentation/CnADocumentation.html">Documentation</a>
                     <a class="nav-link" href="../gallery/CnAGallery.html">Gallery</a>
                     <a class="nav-link" href="../alumni/CnAAlumni.html">Alumni</a>
-                    <a class="nav-link" href="../events/CnAEvents.html">Events</a>
+                    <!-- <a class="nav-link" href="../events/CnAEvents.html">Events</a>
                     <a class="nav-link" href="../team/CnATeam.html">Team</a>
-                    <a class="nav-link" href="../Facilities.html">Facilities</a>
+                    <a class="nav-link" href="../Facilities.html">Facilities</a> -->
                 </nav>
             </section>
         </div>
-    </nav><!-- /.navbar -->
+    </nav>
+    <!-- /.navbar -->
     <!-- Header -->
     <!--<header class="header text-white pt-12 pb-10" style="background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);">
       <div class="container">
@@ -194,26 +201,27 @@
     <!-- Header -->
     <header class="header h-fullscreen" style="background-image: linear-gradient(135deg, #f9f7ff 0%, #fff 50%, #f6f3ff 100%);">
         <div class="container">
-          <div class="row align-items-center h-100">
+            <div class="row align-items-center h-100">
 
-            <div class="col-lg-6">
-              
-              <h1 class="fw-200 mb-6">Resources For You</h1>
-              <p class="lead-2">Want to learn something new? Here are all the resources you might need.</p>
+                <div class="col-lg-6">
 
-              <hr class="w-50px ml-0">
+                    <h1 class="fw-200 mb-6">Resources For You</h1>
+                    <p class="lead-2">Want to learn something new? Here are all the resources you might need.</p>
 
-              <a class="text-muted" href="../Resources.html">Explore all the available resources</a>
-            
+                    <hr class="w-50px ml-0">
+
+                    <!-- <a class="text-muted" href="../Resources.html">Explore all the available resources</a> -->
+
+                </div>
+
+                <div class="col-lg-5 ml-auto d-none d-lg-block">
+                    <img src="../assets/img/ClubResources/CnAResources/CnAMobile.jpg" alt="img">
+                </div>
+
             </div>
-
-            <div class="col-lg-5 ml-auto d-none d-lg-block">
-              <img src="../assets/img/ClubResources/CnAResources/CnAMobile.jpg" alt="img">
-            </div>
-
-          </div>
         </div>
-      </header><!-- /.header -->
+    </header>
+    <!-- /.header -->
     <!-- Main Content -->
     <main class="main-content">
         <!--
@@ -227,7 +235,8 @@
                     <h2 class="display-3 fw-400" style="margin-top: -80px">Topics</h2>
                 </header>
                 <div class="row gap-y" style="margin-top: -30px; margin-bottom: 30px">
-                    <div class="col-12 col-lg-4 hover-shadow-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="00"><a href="CnAResources/Consulting.html">
+                    <div class="col-12 col-lg-4 hover-shadow-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="00">
+                        <a href="CnAResources/Consulting.html">
                             <div class="card text-white justify-content-end bg-img h-400" style="background-image: url(CnAResources/Consulting/Consulting.jpg);background-size: 100%" data-scrim-bottom="7">
                                 <div class="card-body flex-grow-0">
                                     <h3 class="card-title fw-200" style="text-align: center;">Consulting</h3>
@@ -235,7 +244,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-12 col-lg-4 hover-shadow-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="50"><a href="CnAResources/Analytics.html">
+                    <div class="col-12 col-lg-4 hover-shadow-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="50">
+                        <a href="CnAResources/Analytics.html">
                             <div class="card text-white justify-content-end bg-img h-400" style="background-image: url(CnAResources/Analytics/Analytics.jpg);background-size: 100%" data-scrim-bottom="7">
                                 <div class="card-body flex-grow-0">
                                     <h3 class="card-title fw-200" style="text-align: center;">Analytics</h3>
@@ -248,53 +258,55 @@
         </section>
     </main>
     <!-- Footer -->
-      <footer class="footer  bg-dark ">
+    <footer class="footer  bg-dark ">
         <div class="container">
-          <div class="row gap-y align-items-center">
+            <div class="row gap-y align-items-center">
 
-            
 
-            <div class="col-md-4 text-center text-md-left">
-              <div class="nav nav-bold nav-uppercase justify-content-center justify-content-md-start">
-                <a class="nav-link hover-move-up " href="https://www.facebook.com/techboard.iitg/" target = "_blank">Facebook</a>
-                <a class="nav-link hover-move-up" href="mailto:techsec@iitg.ac.in" target = "_blank">Mail</a>
-                <a class="nav-link hover-move-up" href="tel:9182938122" target = "_blank">Contact</a>
-              </div>
-            </div>
-			<div class="col-md-4 text-center text-md-center">
-              <div class="social social-sm social-hover-bg-brand">
-				  <a class="icon-gymkhana btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/index.html"></a>
-				  <a class="icon-tech btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html"></a>
-				  <a class="icon-cult btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/Cultural%20Board/culthome.html"></a>
-				  <a class="icon-sports btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/sports/sportsboard.html"></a>
-				  <a class="icon-welfare btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/welfareBoard/welfareboard.html"></a>
-				  <a class="icon-hab btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/hostelBoard/hab.html"></a>
-              </div>
-            </div>
-			<div class="col-md-4 text-center text-md-right">
-				<small>© <a href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html">Technical Board 2018</a>, All rights reserved.</small>
-            </div>
 
-          </div>
+                <div class="col-md-4 text-center text-md-left">
+                    <div class="nav nav-bold nav-uppercase justify-content-center justify-content-md-start">
+                        <a class="nav-link hover-move-up " href="https://www.facebook.com/techboard.iitg/" target="_blank">Facebook</a>
+                        <a class="nav-link hover-move-up" href="mailto:techsec@iitg.ac.in" target="_blank">Mail</a>
+                        <a class="nav-link hover-move-up" href="tel:9182938122" target="_blank">Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-center">
+                    <div class="social social-sm social-hover-bg-brand">
+                        <a class="icon-gymkhana btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/index.html"></a>
+                        <a class="icon-tech btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html"></a>
+                        <a class="icon-cult btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/Cultural%20Board/culthome.html"></a>
+                        <a class="icon-sports btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/sports/sportsboard.html"></a>
+                        <a class="icon-welfare btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/welfareBoard/welfareboard.html"></a>
+                        <a class="icon-hab btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/hostelBoard/hab.html"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-right">
+                    <small>© <a href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html">Technical Board 2018</a>, All
+              rights reserved.</small>
+                </div>
+
+            </div>
         </div>
-      </footer><!-- /.footer -->
+    </footer>
+    <!-- /.footer -->
     <!--back to top-->
     <button class="btn btn-circle btn-primary scroll-top"><i class="fa fa-angle-up"></i></button>
     <!-- Scripts -->
     <script src="../assets/js/page.min.js"></script>
     <script src="../assets/js/script.js"></script>
     <script>
-    function hideLoader() {
-        $('#loading').hide();
-    }
+        function hideLoader() {
+            $('#loading').hide();
+        }
 
-    $(window).ready(hideLoader);
-    preloaderFadeOutTime = 500;
-    var preloader = $('.spinner-wrapper');
-    preloader.fadeOut(preloaderFadeOutTime);
+        $(window).ready(hideLoader);
+        preloaderFadeOutTime = 500;
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
 
-    // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
-    setTimeout(hideLoader, 20 * 1000);
+        // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+        setTimeout(hideLoader, 20 * 1000);
     </script>
 </body>
 
