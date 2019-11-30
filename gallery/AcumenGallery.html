@@ -23,19 +23,22 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145301884-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-145301884-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145301884-1');
     </script>
     <script src="float-panel.js"></script>
 </head>
 
- <body>
-	<div class="spinner-wrapper"> 
-		<div id="loading"></div>
-	</div>
+<body>
+    <div class="spinner-wrapper">
+        <div id="loading"></div>
+    </div>
     <!-- Navbar -->
     <!--<nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky" >
       <div class="container">
@@ -102,7 +105,7 @@
             </div>
             <section class="navbar-mobile">
                 <nav class="nav nav-navbar ml-auto">
-                    <a class="nav-link active" href="../home/AcumenHome.html">Home</a>
+                    <a class="nav-link active" href="../home/AcumenHome.html">Acumen Home</a>
                     <a class="nav-link active" href="../resources/AcumenResources.html">Resources</a>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Clubs & 4i<span class="arrow"></span></a>
@@ -124,15 +127,16 @@
                         </nav>
                     </li>
                     <a class="nav-link" href="../documentation/AcumenDocumentation.html">Documentation</a>
-                    <a class="nav-link" href="../Gallery.html">Gallery</a>
+                    <!-- <a class="nav-link" href="../Gallery.html">Gallery</a> -->
                     <a class="nav-link" href="../alumni/AcumenAlumni.html">Alumni</a>
-                    <a class="nav-link" href="../events/AcumenEvents.html">Events</a>
+                    <!-- <a class="nav-link" href="../events/AcumenEvents.html">Events</a>
                     <a class="nav-link" href="../team/AcumenTeam.html">Team</a>
-                    <a class="nav-link" href="../Facilities.html">Facilities</a>
+                    <a class="nav-link" href="../Facilities.html">Facilities</a> -->
                 </nav>
             </section>
         </div>
-    </nav><!-- /.navbar -->
+    </nav>
+    <!-- /.navbar -->
     <!-- Header -->
     <!--<header class="header text-white pt-12 pb-10" style="background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);">
       <div class="container">
@@ -218,7 +222,8 @@
                 </div>
             </div>
         </div>
-    </header><br><!-- /.header -->
+    </header><br>
+    <!-- /.header -->
     <!-- Main Content -->
     <main class="main-content">
         <!--
@@ -284,11 +289,11 @@
                 </div>
               </div>-->
                     <div id="slider-image" data-provide="slider" data-as-nav-for="#slider-thumb" data-autoplay="true" data-css-ease="linear" data-speed="1500" data-autoplay-speed="3000" data-pause-on-hover="false">
-                        <div align="center"  class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Quiz1.jpg" alt="..."></div>
-                        <div align="center"  class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Quiz2.jpg" alt="..."></div>
-                        <div align="center"  class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Acumen.jpg" alt="..."></div>
-                        <div align="center"  class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Acumen3.jpg" alt="..."></div>
-                        <div align="center"  class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Acumen4.jpg" alt="..."></div>
+                        <div align="center" class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Quiz1.jpg" alt="..."></div>
+                        <div align="center" class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Quiz2.jpg" alt="..."></div>
+                        <div align="center" class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Acumen.jpg" alt="..."></div>
+                        <div align="center" class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Acumen3.jpg" alt="..."></div>
+                        <div align="center" class="p-2 h-600"><img class="w-100vw" src="../assets/img/clubs intro/Acumen4.jpg" alt="..."></div>
                     </div>
                     <div id="slider-thumb" data-provide="slider" data-as-nav-for="#slider-image" data-slides-to-show="4" data-center-mode="true" data-dots="true" data-focus-on-select="true">
                         <div class="p-2"><img class="cursor-pointer" src="../assets/img/clubs intro/Acumen5.jpg" alt="..."></div>
@@ -352,68 +357,70 @@
         </section>
     </main>
     <!-- Footer -->
-      <footer class="footer  bg-dark ">
+    <footer class="footer  bg-dark ">
         <div class="container">
-          <div class="row gap-y align-items-center">
+            <div class="row gap-y align-items-center">
 
-            
 
-            <div class="col-md-4 text-center text-md-left">
-              <div class="nav nav-bold nav-uppercase justify-content-center justify-content-md-start">
-                <a class="nav-link hover-move-up " href="https://www.facebook.com/techboard.iitg/" target = "_blank">Facebook</a>
-                <a class="nav-link hover-move-up" href="mailto:techsec@iitg.ac.in" target = "_blank">Mail</a>
-                <a class="nav-link hover-move-up" href="tel:9182938122" target = "_blank">Contact</a>
-              </div>
-            </div>
-			<div class="col-md-4 text-center text-md-center">
-              <div class="social social-sm social-hover-bg-brand">
-				  <a class="icon-gymkhana btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/index.html"></a>
-				  <a class="icon-tech btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html"></a>
-				  <a class="icon-cult btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/Cultural%20Board/culthome.html"></a>
-				  <a class="icon-sports btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/sports/sportsboard.html"></a>
-				  <a class="icon-welfare btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/welfareBoard/welfareboard.html"></a>
-				  <a class="icon-hab btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/hostelBoard/hab.html"></a>
-              </div>
-            </div>
-			<div class="col-md-4 text-center text-md-right">
-				<small>© <a href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html">Technical Board 2018</a>, All rights reserved.</small>
-            </div>
 
-          </div>
+                <div class="col-md-4 text-center text-md-left">
+                    <div class="nav nav-bold nav-uppercase justify-content-center justify-content-md-start">
+                        <a class="nav-link hover-move-up " href="https://www.facebook.com/techboard.iitg/" target="_blank">Facebook</a>
+                        <a class="nav-link hover-move-up" href="mailto:techsec@iitg.ac.in" target="_blank">Mail</a>
+                        <a class="nav-link hover-move-up" href="tel:9182938122" target="_blank">Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-center">
+                    <div class="social social-sm social-hover-bg-brand">
+                        <a class="icon-gymkhana btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/index.html"></a>
+                        <a class="icon-tech btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html"></a>
+                        <a class="icon-cult btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/Cultural%20Board/culthome.html"></a>
+                        <a class="icon-sports btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/sports/sportsboard.html"></a>
+                        <a class="icon-welfare btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/welfareBoard/welfareboard.html"></a>
+                        <a class="icon-hab btn-outline-primary" href="https://www.iitg.ac.in/stud/gymkhana/hostelBoard/hab.html"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-right">
+                    <small>© <a href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html">Technical Board 2018</a>, All rights reserved.</small>
+                </div>
+
+            </div>
         </div>
-      </footer><!-- /.footer -->
+    </footer>
+    <!-- /.footer -->
     <!--back to top-->
     <button class="btn btn-circle btn-primary scroll-top"><i class="fa fa-angle-up"></i></button>
     <!-- Scripts -->
     <script src="../assets/js/page.min.js"></script>
     <script src="../assets/js/script.js"></script>
-<script>
-		$(document).ready(function() {
-		//Preloader
-		$(window).on("load", function() {
-		preloaderFadeOutTime = 500;
-		function hidePreloader() {
-		var preloader = $('.spinner-wrapper');
-		preloader.fadeOut(preloaderFadeOutTime);
-		}
-		hidePreloader();
-		});
-		});
-	</script>
-	
-	  <script>
-	 function hideLoader() {
-			$('#loading').hide();
-		}
+    <script>
+        $(document).ready(function() {
+            //Preloader
+            $(window).on("load", function() {
+                preloaderFadeOutTime = 500;
 
-		$(window).ready(hideLoader);
-		preloaderFadeOutTime = 500;
-		var preloader = $('.spinner-wrapper');
-      	preloader.fadeOut(preloaderFadeOutTime);
+                function hidePreloader() {
+                    var preloader = $('.spinner-wrapper');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
 
-		// Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
-		setTimeout(hideLoader, 20 * 1000);
-	</script>
+    <script>
+        function hideLoader() {
+            $('#loading').hide();
+        }
+
+        $(window).ready(hideLoader);
+        preloaderFadeOutTime = 500;
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+
+        // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+        setTimeout(hideLoader, 20 * 1000);
+    </script>
 </body>
 
 </html>
