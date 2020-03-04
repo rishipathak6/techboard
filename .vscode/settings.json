@@ -4,7 +4,9 @@
     "peacock.affectTitleBar": false,
     "peacock.surpriseMeOnStartup": true,
     "workbench.colorCustomizations": {
+        "tab.unfocusedActiveBorder": "#fff0",
+        "statusBar.background": "#145af8",
         "statusBarItem.hoverBackground": "#457df9",
-        "tab.unfocusedActiveBorder": "#fff0"
+        "statusBar.foreground": "#e7e7e7"
     }
 }

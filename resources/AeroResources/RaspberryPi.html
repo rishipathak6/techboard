@@ -316,7 +316,9 @@
 
                     <div id="playlists">
 
-                        <div id="frame"></div>
+                        <div class="video-container text-center">
+                            <div class="frame" id="multi1"></div>
+                        </div>
 
                         <!--<div class="description">
 			<p>You can switch between the playlists using the drop down arrow</p>
@@ -327,7 +329,7 @@
                             window.onload = function() {
 
 
-                                window.controller = new YTV('frame', {
+                                window.controller = new YTV('multi1', {
                                     playlist: 'PLYvd5dvEarcIht1aeqaDb6i3IWasQf-AZ',
                                     accent: '#fff',
                                     browsePlaylists: true,
@@ -336,7 +338,6 @@
                                     responsive: true,
                                     playerTheme: 'light',
                                     listTheme: 'light',
-
                                 });
 
                             };
